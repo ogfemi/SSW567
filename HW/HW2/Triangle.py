@@ -40,7 +40,7 @@ def classify_triangle(side_a, side_b, side_c):
         # This information was not in the requirements spec but
         # is important for correctness
         # the sum of any two sides must be strictly less than the third side
-        # of the specified shape is not a triangle
+        # of the specified shape is not a triangle!
     if side_a+side_b <= side_c:
         return 'NotATriangle'
 
